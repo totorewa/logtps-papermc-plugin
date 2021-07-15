@@ -1,9 +1,9 @@
 name: LogTPS
-version: 0.1.0
+version: ${project.plugin_version}
 description: Sends server TPS and MSPT to the player
 
 author: Totorewa
 
-api-version: 1.17.1
+api-version: ${project.api_version}
 main: github.totorewa.paper.logtps.LogTPSPlugin
 database: false

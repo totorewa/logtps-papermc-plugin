@@ -22,4 +22,8 @@ processResources {
             it.delete()
         }
     }
+
+    filesMatching("plugin.yml") {
+        expand(project: project)
+    }
 }
